@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Button layoutX="22.0" layoutY="326.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="82.0" text="Entrée" />
+      <Button layoutX="107.0" layoutY="326.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="86.0" text="Sortie" />
+      <Pane layoutX="7.0" layoutY="7.0" prefHeight="200.0" prefWidth="600.0" AnchorPane.bottomAnchor="193.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="7.0">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="142.0" text="Complexe C FUN">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="17.0" text="Date :" />
+            <Label layoutX="338.0" layoutY="17.0" text="Heure :" />
+            <Label layoutX="14.0" layoutY="56.0" text="Place disponibles M :" />
+            <Label layoutX="14.0" layoutY="77.0" text="Place disponibles F :" />
+            <Label layoutX="188.0" layoutY="56.0" text="Place occupées M :" />
+            <Label layoutX="188.0" layoutY="77.0" text="Place occupées F :" />
+            <Label layoutX="355.0" layoutY="56.0" text="Taux occ. M :" />
+            <Label layoutX="355.0" layoutY="77.0" prefHeight="21.0" prefWidth="86.0" text="Taux occ F :" />
+            <Label layoutX="484.0" layoutY="56.0" text="Couleur M :" />
+            <Label layoutX="484.0" layoutY="77.0" text="Couleur F :" />
+            <Label layoutX="26.0" layoutY="164.0" text="M : en musculation" />
+            <Label layoutX="173.0" layoutY="164.0" text="F : en fitness" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

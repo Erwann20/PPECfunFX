@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="400.0" prefWidth="800.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.ControllerRootLayout">
+   <top>
+      <MenuBar prefHeight="61.0" prefWidth="800.0" styleClass="label-bright" stylesheets="@DarkTheme.css" BorderPane.alignment="CENTER">
+         <menus>
+            <Menu mnemonicParsing="false" text="Menu">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#openViewPrincipal" text="Entrer" />
+                  <MenuItem mnemonicParsing="false" onAction="#openViewSortie" text="Sortir" />
+                  <MenuItem mnemonicParsing="false" onAction="#openAuth" text="Connexion" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleQuitter" text="Quitter" />
+               </items></Menu>
+         </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

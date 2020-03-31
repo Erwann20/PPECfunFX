@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="310.0" prefWidth="774.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.ControllerCompta">
+   <children>
+      <TableView fx:id="tVArrivee" layoutX="7.0" layoutY="22.0" prefHeight="239.0" prefWidth="570.0">
+        <columns>
+          <TableColumn fx:id="numArrivee" prefWidth="76.7999849319458" text="N°" />
+          <TableColumn fx:id="sport" prefWidth="112.80001831054688" text="Sport" />
+            <TableColumn fx:id="heureArrivee" prefWidth="120.00001525878906" text="Heure arrivée" />
+            <TableColumn fx:id="montant" prefWidth="132.800048828125" text="Montant" />
+            <TableColumn fx:id="dateSortie" prefWidth="129.5999755859375" text="Date sortie" />
+        </columns>
+      </TableView>
+      <Button layoutX="700.0" layoutY="268.0" mnemonicParsing="false" onAction="#buttonRetour" text="Retour" />
+      <Label layoutX="28.0" layoutY="272.0" text="Montant total :" />
+      <Label fx:id="txtMontantTot" layoutX="145.0" layoutY="272.0" text="..." />
+      <Button layoutX="584.0" layoutY="22.0" mnemonicParsing="false" onAction="#buttonDetail" text="Detail" />
+   </children>
+</AnchorPane>
